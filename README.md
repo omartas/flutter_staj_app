@@ -1,16 +1,24 @@
-# flutter_staj_app
+# Flutter E-Commerce App
 
-A new Flutter project.
+I developed this app for my internship.
 
-## Getting Started
+## App's features
+### HomePage
+Listing all the products
+Using Listview 
+Every item direct you to Detail Page when you pressed.
 
-This project is a starting point for a Flutter application.
+### Product Detail Page
+Add to cart option
+It shows all details of the selected product as comments, stars, category, how many times it has purchased
 
-A few resources to get you started if this is your first Flutter project:
+### Data Flow
+API service : we get all products from a fake api 
+Provider : it makes general data management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Libraries
+Provider: State management.
+http: API service.
+json_annotation: convert json to data models.
+flutter/material.dart: UI and Design.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
